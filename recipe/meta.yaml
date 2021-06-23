@@ -20,12 +20,23 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
+    - wheel
   run:
     - python
 
 test:
   imports:
     - json5
+    - json5.arg_parser
+    - json5.host
+    - json5.parser
+    - json5.lib
+    - json5.tool
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/dpranke/pyjson5
