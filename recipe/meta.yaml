@@ -46,6 +46,7 @@ about:
   summary: A Python implementation of the JSON5 data format
   description: A Python implementation of the JSON5 data format
   dev_url: https://github.com/dpranke/pyjson5
+  doc_url: https://github.com/dpranke/pyjson5
 
 extra:
   recipe-maintainers:
